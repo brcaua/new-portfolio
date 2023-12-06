@@ -23,6 +23,15 @@ export default function Home() {
           <li className="text-1xl xl:text-2xl lg:text-2xl  font-mono font-normal text-yellow-300 dark:text-yellow border-b-2 border-gray-800 dark:border-white">
             <a href="/uses">Uses</a>
           </li>
+          <li className="text-1xl xl:text-2xl lg:text-2xl  font-mono font-normal text-yellow-300 dark:text-yellow border-b-2 border-gray-800 dark:border-white">
+            <a href="mailto:breno.pereira.dev@gmail.com">Email</a>
+          </li>
+          <li className="text-1xl xl:text-2xl lg:text-2xl  font-mono font-normal text-yellow-300 dark:text-yellow border-b-2 border-gray-800 dark:border-white">
+            <a href="https://www.linkedin.com/in/breno3g/">Linkedin</a>
+          </li>
+          <li className="text-1xl xl:text-2xl lg:text-2xl  font-mono font-normal text-yellow-300 dark:text-yellow border-b-2 border-gray-800 dark:border-white">
+            <a href="https://www.github/brcaua">Github</a>
+          </li>
         </ul>
       </section>
 
