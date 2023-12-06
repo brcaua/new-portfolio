@@ -1,5 +1,8 @@
 {
   "name": "uses_breno",
+  "author": "Breno Pereira",
+  "description": "My personal website",
+  "license": "MIT",
   "version": "0.1.0",
   "private": true,
   "scripts": {
