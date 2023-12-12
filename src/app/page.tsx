@@ -27,10 +27,23 @@ export default function Home() {
             <a href="mailto:breno.pereira.dev@gmail.com">Email</a>
           </li>
           <li className="text-1xl xl:text-2xl lg:text-2xl  font-mono font-normal text-yellow-300 dark:text-yellow border-b-2 border-gray-800 dark:border-white">
-            <a href="https://www.linkedin.com/in/breno3g/">Linkedin</a>
+            <a href="https://www.linkedin.com/in/breno3g/" target="_blank">
+              Linkedin
+            </a>
           </li>
           <li className="text-1xl xl:text-2xl lg:text-2xl  font-mono font-normal text-yellow-300 dark:text-yellow border-b-2 border-gray-800 dark:border-white">
-            <a href="https://www.github/brcaua">Github</a>
+            <a href="https://github.com/brcaua" target="_blank">
+              Github
+            </a>
+          </li>
+          {/* download CV */}
+          <li className="text-1xl xl:text-2xl lg:text-2xl  font-mono font-normal text-yellow-300 dark:text-yellow border-b-2 border-gray-800 dark:border-white">
+            <a
+              href="https://drive.google.com/file/d/12Hdbbb5B_pTIPT3YI-fa6kZcLpoOt9Ci/view?usp=sharing"
+              target="_blank"
+            >
+              CV
+            </a>
           </li>
         </ul>
       </section>
