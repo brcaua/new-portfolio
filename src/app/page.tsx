@@ -1,58 +1,55 @@
+const COLOR_BOLD = "#fff";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen min-w-min flex-col items-start justify-center gap-8 p-8 sm:w-full lg:w-2/3  lg:p-24 xl:w-2/3">
-      <header className="flex flex-col items-start justify-center w-full">
-        <h1 className="text-2xl xl:text-5xl lg:text-5xl font-bold text-gray-800">
+    <main className="flex flex-col gap-8 px-24 py-6 max-w-7xl mx-auto">
+      <header className="flex flex-col items-center justify-center align-center">
+        <h1 className="text-3xl xl:text-4xl lg:text-4xl mb-4 font-bold">
           Hey, welcome to my website :)
         </h1>
-        <p className="text-1xl xl:text-2xl lg:text-2xl  font-normal text-#111 dark:text-yellow mt-2">
-          My name is Breno Pereira, I'm a Brazilian software developer currently
-          working on Vodafone UK. Here you can find a little bit about me.
-        </p>
+
+        <section className="text-2xl">
+          <p className="text-1xl font-normal text-#111 #111 mt-4 text-justify ">
+            My name is Breno Pereira, I'm a Brazilian 🇧🇷 software developer 👨‍💻
+            currently working on Vodafone UK 🇬🇧. I've worked with a lot of
+            different technologies, but I'm currently focused on{" "}
+            <span style={{ color: COLOR_BOLD }}>
+              React, React Native, NodeJS and Typescript.
+            </span>
+          </p>
+
+          <p className="text-1xl  font-normal text-#111 #111 mt-4 text-justify">
+            <span style={{ color: COLOR_BOLD }}>
+              I believe that to change society for the better, we need to invest
+              politically in technology and education.
+            </span>
+            Enthusiastic about technology, I love learning new technologies and
+            new challenges. Since the age of 15 studying programming, and going
+            through vocational, and technical courses.
+          </p>
+          <p className="text-1xl   font-normal text-#111 #111 mt-4 text-justify">
+            At 16 years old, I sold my first software to serve a store, and I
+            completed several other software sales taking care of everything
+            from sales to development and customer support.
+          </p>
+
+          <p className="text-1xl  font-normal text-#111 #111 mt-4 text-justify">
+            Currently I'm improving my skills in AI and ML, how can be
+            integrated into my work as a software developer using React. It's a
+            new challenge for me, and I'm excited to see how{" "}
+            <span style={{ color: COLOR_BOLD }}>Rust</span> will change the way
+            we develop APIs. I'm also really excited about the future of{" "}
+            <span style={{ color: COLOR_BOLD }}>WebAssembly</span> and how this
+            can change the way we develop web applications - especially{" "}
+            <span style={{ color: COLOR_BOLD }}>web3</span>.
+          </p>
+
+          <p className="text-1xl  font-normal #111 mt-4 text-justify">
+            On the side, I enjoy exploring and making coffee - Always up for a
+            chat ☕️
+          </p>
+        </section>
       </header>
-
-      <section className="flex flex-col items-start justify-center w-full mt-0">
-        <h3 className="text-2xl xl:text-2xl lg:text-2xl font-bold text-gray-800 dark:text-white">
-          Links:
-        </h3>
-
-        <ul className="flex flex-col items-start justify-center w-full">
-          <li className="text-1xl xl:text-2xl lg:text-2xl hover:font-bold font-normal text-#111 dark:text-yellow border-b-2 border-gray-800 dark:border-white">
-            <a href="/about"> About me</a>
-          </li>
-          <li className="text-1xl xl:text-2xl lg:text-2xl  hover:font-bold font-normal text-#111 dark:text-yellow border-b-2 border-gray-800 dark:border-white">
-            <a href="/uses">Uses</a>
-          </li>
-          <li className="text-1xl xl:text-2xl lg:text-2xl  hover:font-bold font-normal text-#111 dark:text-yellow border-b-2 border-gray-800 dark:border-white">
-            <a href="mailto:breno.pereira.dev@gmail.com">Email</a>
-          </li>
-          <li className="text-1xl xl:text-2xl lg:text-2xl  hover:font-bold font-normal text-#111 dark:text-yellow border-b-2 border-gray-800 dark:border-white">
-            <a href="https://www.linkedin.com/in/breno3g/" target="_blank">
-              Linkedin
-            </a>
-          </li>
-          <li className="text-1xl xl:text-2xl lg:text-2xl hover:font-bold  font-normal text-#111 dark:text-yellow border-b-2 border-gray-800 dark:border-white">
-            <a href="https://github.com/brcaua" target="_blank">
-              Github
-            </a>
-          </li>
-          {/* download CV */}
-          <li className="text-1xl xl:text-2xl lg:text-2xl hover:font-bold  font-normal text-#111 dark:text-yellow border-b-2 border-gray-800 dark:border-white">
-            <a
-              href="https://drive.google.com/file/d/12Hdbbb5B_pTIPT3YI-fa6kZcLpoOt9Ci/view?usp=sharing"
-              target="_blank"
-            >
-              CV
-            </a>
-          </li>
-        </ul>
-      </section>
-
-      <footer className="flex flex-col items-center justify-center w-full mt-4">
-        <p className="text-1xl xl:text-2xl lg:text-2xl   font-normal text-#111 dark:text-yellow">
-          Made with 💛 by Breno Pereira
-        </p>
-      </footer>
     </main>
   );
 }
